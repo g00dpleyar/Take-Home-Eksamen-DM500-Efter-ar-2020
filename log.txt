@@ -1,0 +1,145 @@
+commit 6091af45deddfff5c1b299253d3366293aa8989e
+Author: Mikkel Lykke Bentsen <mikkellykkebentsen@Mikkels-MacBook-Pro.local>
+Date:   Tue Nov 10 11:22:06 2020 +0100
+
+    subsubsection
+
+ texdefault.aux        |   8 ++--
+ texdefault.log        | 100 +++++++++++++++++++++++++++++++++++---------------
+ texdefault.out        |   8 ++--
+ texdefault.pdf        | Bin 103897 -> 103752 bytes
+ texdefault.synctex.gz | Bin 13586 -> 18248 bytes
+ texdefault.tex        |   2 +-
+ 6 files changed, 81 insertions(+), 37 deletions(-)
+
+commit e68cec63152ee9e4701ca39c1a1a7a0c1296b1e1
+Author: HNO <hnostudie20@gmail.com>
+Date:   Tue Nov 10 11:17:30 2020 +0100
+
+    Opgave 3 + formatting
+
+ texdefault.pdf | Bin 100243 -> 103897 bytes
+ texdefault.tex |  75 ++++++++++++++++++++++++++++++++++++++++++---------------
+ 2 files changed, 56 insertions(+), 19 deletions(-)
+
+commit d7aa2080a71b6870b8e733bcc1748c212f754777
+Author: Mikkel Lykke Bentsen <mikkellykkebentsen@Mikkels-MacBook-Pro.local>
+Date:   Tue Nov 10 10:37:55 2020 +0100
+
+    fixed opgave 1 reeksamen 2012 januar
+
+ texdefault.aux        |   3 +-
+ texdefault.log        | 440 ++++++++++++++++++++++++++------------------------
+ texdefault.out        |   8 +-
+ texdefault.pdf        | Bin 80903 -> 100243 bytes
+ texdefault.synctex.gz | Bin 11212 -> 13586 bytes
+ texdefault.tex        |  19 +++
+ 6 files changed, 254 insertions(+), 216 deletions(-)
+
+commit f188d30c8b8343fd736f20cf147b990feaf53470
+Merge: 70252a9 9aed068
+Author: Andreas Askholm <andreas_askholm@hotmail.com>
+Date:   Tue Nov 10 10:34:25 2020 +0100
+
+    Merge branch 'main' of https://github.com/g00dpleyar/Take-Home-Eksamen-DM500-Efter-ar-2020 into main
+
+commit 70252a9b1d74825fbea56d897a3b6e0b31e360fa
+Author: Andreas Askholm <andreas_askholm@hotmail.com>
+Date:   Tue Nov 10 10:33:00 2020 +0100
+
+    formatting
+
+ texdefault.aux        |   6 ++++--
+ texdefault.log        |  51 ++++++++++++++++++++++++++++++--------------------
+ texdefault.out        |   4 +++-
+ texdefault.pdf        | Bin 68806 -> 80903 bytes
+ texdefault.synctex.gz | Bin 8287 -> 11212 bytes
+ texdefault.tex        |   4 ++--
+ 6 files changed, 40 insertions(+), 25 deletions(-)
+
+commit 9aed068a8c94079e94406dd4f9d0c58731487ee6
+Merge: ff70ce1 ee2d2d3
+Author: Mikkel Lykke Bentsen <mikkellykkebentsen@Mikkels-MacBook-Pro.local>
+Date:   Tue Nov 10 10:30:23 2020 +0100
+
+    merge sorted
+
+commit ff70ce1719a4ed68275f4223fbb3bb306ddabb10
+Author: Mikkel Lykke Bentsen <mikkellykkebentsen@Mikkels-MacBook-Pro.local>
+Date:   Tue Nov 10 10:26:36 2020 +0100
+
+    opgave 1 reeksamen januar 2012
+
+ texdefault.aux        |   5 +-
+ texdefault.log        | 463 +++++++++++++++++++++++++++-----------------------
+ texdefault.out        |   4 +-
+ texdefault.pdf        | Bin 68806 -> 88702 bytes
+ texdefault.synctex.gz | Bin 8287 -> 10624 bytes
+ texdefault.tex        |  26 ++-
+ 6 files changed, 282 insertions(+), 216 deletions(-)
+
+commit ee2d2d3e1ca7e124df071520b5499614d2f66d0b
+Author: Andreas Askholm <andreas_askholm@hotmail.com>
+Date:   Tue Nov 10 10:23:44 2020 +0100
+
+    update title
+
+ texdefault.tex | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit f5d23188c58aeb8cefb50d87a2ac87b3a0b6717e
+Author: Andreas Askholm <andreas_askholm@hotmail.com>
+Date:   Tue Nov 10 10:21:39 2020 +0100
+
+    add opgave 3 matrice
+
+ texdefault.tex | 24 ++++++++++++++++++++++++
+ 1 file changed, 24 insertions(+)
+
+commit 403ccdf2ba6dd2feb7b361d6fe2125934dc5fc52
+Author: Andreas Askholm <andreas_askholm@hotmail.com>
+Date:   Tue Nov 10 10:02:11 2020 +0100
+
+    add opgave 2
+
+ texdefault.aux        |   2 +
+ texdefault.log        | 506 +++++++++++++++++++++++++++-----------------------
+ texdefault.out        |   1 +
+ texdefault.pdf        | Bin 68219 -> 68806 bytes
+ texdefault.synctex.gz | Bin 6087 -> 8287 bytes
+ texdefault.tex        |  37 +++-
+ 6 files changed, 308 insertions(+), 238 deletions(-)
+
+commit 80acd91dd15518e9ebd8fd7958bcc37cba988255
+Author: Mikkel Lykke Bentsen <mikkellykkebentsen@Mikkels-MacBook-Pro.local>
+Date:   Tue Nov 10 09:48:01 2020 +0100
+
+    Opgave 1 Re-eksamen februar 2015
+
+ texdefault.aux        |  18 +++
+ texdefault.log        | 393 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ texdefault.out        |   0
+ texdefault.pdf        | Bin 0 -> 68219 bytes
+ texdefault.synctex.gz | Bin 0 -> 6087 bytes
+ texdefault.tex        |  22 ++-
+ 6 files changed, 432 insertions(+), 1 deletion(-)
+
+commit d0442197dbc5300ef9f7975ff6076edb1ba37d92
+Author: Andreas Askholm <andreas_askholm@hotmail.com>
+Date:   Tue Nov 10 08:40:33 2020 +0100
+
+    Create texdefault.tex
+    
+    first commit, a default latex document
+
+ texdefault.tex | 28 ++++++++++++++++++++++++++++
+ 1 file changed, 28 insertions(+)
+
+commit c3dd96d5d9eec6f1b1946eaeacb7458d828c9186
+Author: Mikkel Lykke Bentsen <mikkellykkebentsen@Mikkels-MacBook-Pro.local>
+Date:   Tue Nov 10 08:29:18 2020 +0100
+
+    first commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
