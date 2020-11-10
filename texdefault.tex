@@ -3,9 +3,14 @@
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 \usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\parindent 0ex
+
+
 
 \title{\LaTeX{}}
-\author{Andreas Twisttmann Askholm}
+\author{Andreas Twisttmann Askholm, \\Mikkel Lykke Bentsen, \\Hanno Hagge}
 \date{\today}
 
 %comments are preceded by a % sign
@@ -24,5 +29,20 @@ useful links:
 	\item \href{https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes}{overleaf \LaTeX{} tutorial}
 	\item \href{https://www.latex-tutorial.com/tutorials/hyperlinks/}{\LaTeX{} Tutorial}
 \end{itemize}
+Reeksamen februar 2015
+\\ Opgave 1.
+I det følgende lader vi $U = \lbrace1, 2, 3, . . . , 15\rbrace$ være universet (universal set).\\
+Betragt de to mængder\\
+$$A = {2n \mid n \in S}$$
+$$B = {3n + 2 \mid n \in S}$$
+hvor S = $\lbrace1, 2, 3, 4\rbrace.$ \\
+Angiv samtlige elementer i hver af følgende mængder.
+\\\\
+a) A  \hspace{5mm} Mængden A er alle værdier i  S ganget med 2 (2n).$$ A = \lbrace 2, 4, 6, 8\rbrace$$
+b) B \hspace{5mm} Mængden B er alle værdier i S ganget med 3, og derefter adderet med 2 (3n + 2). $$ B = \lbrace 5, 8, 11, 14 \rbrace$$
+c) $A \cap B$ \hspace{5mm} Fællesmængden af A og B er den mængde bestående af de elementer de har tilfælles. $$ A \cap B = \lbrace8\rbrace$$
+d) $A \cup B$ \hspace{5mm} Foreningsmængden af A og B er mængden bestående af alle elementer fra A og B. Det samme element kan ikke optræde flere gange. $$ A \cup B = \lbrace 2, 4, 5, 6, 8, 11, 14\rbrace$$
+e) $A - B$ \hspace{5mm} Mængden A - B er den mængden A uden de elementer A har tilfælles med B. $$ A - B = \lbrace 2, 4, 6 \rbrace $$
+f) $ \bar{A}$ \hspace{5mm} Komplimentet af A er bestående af alle de elementer i universet som \emph{ikke} er i A. $$ \bar{A} = \lbrace 1, 3, 5, 7, 9, 10, 11, 12, 13, 14, 15 \rbrace$$
 
 \end{document}
