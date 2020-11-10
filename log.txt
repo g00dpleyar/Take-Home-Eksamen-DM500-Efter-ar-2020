@@ -1,3 +1,21 @@
+commit ee63c5c1bc83bace62b90bfa909c172130a46976
+Author: HNO <hnostudie20@gmail.com>
+Date:   Tue Nov 10 11:30:49 2020 +0100
+
+    Update texdefault.tex
+
+ texdefault.tex | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 2abcc3fd58e98c2af9bd7175c38deb9b74cf7769
+Author: Andreas Askholm <andreas_askholm@hotmail.com>
+Date:   Tue Nov 10 11:25:50 2020 +0100
+
+    Create log.txt
+
+ log.txt | 145 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 145 insertions(+)
+
 commit 6091af45deddfff5c1b299253d3366293aa8989e
 Author: Mikkel Lykke Bentsen <mikkellykkebentsen@Mikkels-MacBook-Pro.local>
 Date:   Tue Nov 10 11:22:06 2020 +0100
