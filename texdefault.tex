@@ -25,7 +25,8 @@
 \begin{document}
 
 \maketitle
-
+\renewcommand{\labelenumi}{\alph{enumi}}
+\renewcommand{\labelenumii}{\arabic{enumii}}
 \section{Reeksamen februar 2015}
 \subsection{Opgave 1.}
 I det følgende lader vi $U = \lbrace1, 2, 3, . . . , 15\rbrace$ være universet (universal set).\\
@@ -35,16 +36,18 @@ $$B = {3n + 2 \mid n \in S}$$
 hvor S = $\lbrace1, 2, 3, 4\rbrace.$ \\
 Angiv samtlige elementer i hver af følgende mængder.
 \\\\
-a) A  \hspace{5mm} Mængden A er alle værdier i  S ganget med 2 (2n).$$ A = \lbrace 2, 4, 6, 8\rbrace$$
-b) B \hspace{5mm} Mængden B er alle værdier i S ganget med 3, og derefter adderet med 2 (3n + 2). $$ B = \lbrace 5, 8, 11, 14 \rbrace$$
-c) $A \cap B$ \hspace{5mm} Fællesmængden af A og B er den mængde bestående af de elementer de har tilfælles. $$ A \cap B = \lbrace8\rbrace$$
-d) $A \cup B$ \hspace{5mm} Foreningsmængden af A og B er mængden bestående af alle elementer fra A og B. Det samme element kan ikke optræde flere gange. $$ A \cup B = \lbrace 2, 4, 5, 6, 8, 11, 14\rbrace$$
-e) $A - B$ \hspace{5mm} Mængden A - B er den mængden A uden de elementer A har tilfælles med B. $$ A - B = \lbrace 2, 4, 6 \rbrace $$
-f) $ \bar{A}$ \hspace{5mm} Komplimentet af A er bestående af alle de elementer i universet som \emph{ikke} er i A. $$ \bar{A} = \lbrace 1, 3, 5, 7, 9, 10, 11, 12, 13, 14, 15 \rbrace$$
+\begin{enumerate}
 
-\section{Opgave 2}
-\renewcommand{\labelenumi}{\alph{enumi}}
-\renewcommand{\labelenumii}{\arabic{enumii}}
+
+\item) A  \hspace{5mm} Mængden A er alle værdier i  S ganget med 2 (2n).$$ A = \lbrace 2, 4, 6, 8\rbrace$$
+\item) B \hspace{5mm} Mængden B er alle værdier i S ganget med 3, og derefter adderet med 2 (3n + 2). $$ B = \lbrace 5, 8, 11, 14 \rbrace$$
+\item) $A \cap B$ \hspace{5mm} Fællesmængden af A og B er den mængde bestående af de elementer de har tilfælles. $$ A \cap B = \lbrace8\rbrace$$
+\item) $A \cup B$ \hspace{5mm} Foreningsmængden af A og B er mængden bestående af alle elementer fra A og B. Det samme element kan ikke optræde flere gange. $$ A \cup B = \lbrace 2, 4, 5, 6, 8, 11, 14\rbrace$$
+\item) $A - B$ \hspace{5mm} Mængden A - B er den mængden A uden de elementer A har tilfælles med B. $$ A - B = \lbrace 2, 4, 6 \rbrace $$
+\item) $ \bar{A}$ \hspace{5mm} Komplimentet af A er bestående af alle de elementer i universet som \emph{ikke} er i A. $$ \bar{A} = \lbrace 1, 3, 5, 7, 9, 10, 11, 12, 13, 14, 15 \rbrace$$
+\end{enumerate}
+\subsection{Opgave 2}
+
 \begin{enumerate}
 	\item) Hvilke af følgende udsagn er sande ?
 \begin{enumerate}
@@ -72,7 +75,36 @@ f) $ \bar{A}$ \hspace{5mm} Komplimentet af A er bestående af alle de elementer 
 	
 \end{enumerate}
 
-\section{opgave 3 matricer}
+\subsection{Opgave 3}
+Lad R, S og T være binære relationer på mængden $\lbrace1,2,3,4 \rbrace$
+
+\begin{enumerate}
+
+	\item) Lad\textit{R} = $\lbrace(1,1),(2,1),(2,2),(2,4),(3,1),(3,3), (3,4),(4,1),(4,4)\rbrace$.
+	\\Er \textit{R} en partiel ordning?
+	\\
+	\\For at en relation er en partiel ordning, skal den være både refleksiv, transitiv og asymetrisk. \textit{R} er refleksiv, da ethvert element er relateret til sig selv:$\lbrace(1,1),(2,2),(3,3),(4,4)\rbrace$. Den er asymetrisk, fordi ingen af relationerne har der har (a,b) også har (b,a), untagen hvis de er transitiv. Relationen er transitiv, da a er relatieret til b og b er relateret til c, er a også relateret til c.\\
+	
+	
+	
+	\item) Lad \textit{S} = $\lbrace(1, 2),(2, 3),(2, 4),(4, 2)\rbrace.$
+Angiv den transitive lukning af \textit{S}.
+\\For at lukke relationen transitiv, skal hvis man har (a,b) og (b,c) også have (a,c). I vores relation ville det være: 
+\\(1,3), (2,2), (1,4).
+\\
+\\
+	\item) Lad \textit{T} = $\lbrace(1, 1),(1, 3),(2, 2),(2, 4),(3, 1),(3, 3),(4, 2),(4, 4)\rbrace$.
+\\Bemærk, at \textit{T} er en ækvivalens-relation.
+\\Angiv \textit{T}'s ækvivalens-klasser.
+\\
+\\Ækvivalensklasser er relationer inden for en ækvivalensrelation, der ikke har direkt forbindelse til resten. I dette eksempel er
+\\ækvivalensklasserne:
+\\ 1 og 3 
+\\ 2 og 4
+
+\end{enumerate}
+
+\subsection{opgave 3 matricer}
 \begin{enumerate}
 	\item) \(\begin{bmatrix}
 			1 & 0 & 0 & 0\\
@@ -96,23 +128,28 @@ f) $ \bar{A}$ \hspace{5mm} Komplimentet af A er bestående af alle de elementer 
 			\end{bmatrix}\)
 \end{enumerate}
 
-\textbf{Opgaver fra reeksamen Januar 2012}
-\section{Opgave 1}
-Betragt funktionerne $f : R \longrightarrow R og g : R \longrightarrow R $defineret ved
+
+\section{Opgaver fra reeksamen Januar 2012}
+\subsection{Opgave 1}
+Betragt funktionerne $f : R \longrightarrow$ R og g $: R \longrightarrow R $ defineret ved 
 $$f(x) = x^2 + x + 1$$
 $$g(x) = 2x - 2$$
-a) Er f en bijektion?  \\\\
+\begin{enumerate}
+
+\item) Er f en bijektion?  \\\\
 f er ikke en bijektion da den værken er sujektiv eller injektiv. Den dækker ikke alle værdier af y og der er flere x værdier tilknyttet en y værdi.
 \\
 \\
-b) Har f en invers funktion?
+\item) Har f en invers funktion?
 \\
 \\
 Den inverse funktion for f er ikke defineret da en funktion ikke kan have flere værdier af y for en x værdi.
 \\
 \\
-c) Angiv f + g.
+\item) Angiv f + g.
 $$(x^2 + x + 1) + (2x-2)$$
-d) Angiv g ◦ f.
+\item) Angiv g ◦ f.
 $$2(x^2+x+1) - 2$$
+\end{enumerate}
+
 \end{document}
