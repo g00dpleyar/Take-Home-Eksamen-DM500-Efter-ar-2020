@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.15)  13 NOV 2020 13:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.15)  10 NOV 2020 10:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**texdefault.tex
-(./texdefault.tex
+**"opgave 2 2015.tex"
+(./opgave 2 2015.tex
 LaTeX2e <2020-10-01> patch level 1
 L3 programming layer <2020-10-05> xparse <2020-03-03>
 (c:/texlive/2020/texmf-dist/tex/latex/base/article.cls
@@ -284,25 +284,25 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count275
 \l__pdf_internal_box=\box50
 )
-(./texdefault.aux)
-\openout1 = `texdefault.aux'.
+(./opgave 2 2015.aux)
+\openout1 = `"opgave 2 2015.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -326,7 +326,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 21.
 
 (c:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -339,158 +339,86 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count282
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
 
-(./texdefault.out) (./texdefault.out)
+(./opgave 2 2015.out) (./opgave 2 2015.out)
 \@outlinefile=\write3
-\openout3 = `texdefault.out'.
+\openout3 = `"opgave 2 2015.out"'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
 
 
 (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
 
 
 (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--39
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--39
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
 [1
 
-{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 83--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--104
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 139--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
-
- []
-
-[4] (./texdefault.aux)
-Package rerunfilecheck Info: File `texdefault.out' has not changed.
-(rerunfilecheck)             Checksum: 7E5353CA32C7EB7901178C64FF537DAE;430.
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+(./opgave 2 2015.aux)
+Package rerunfilecheck Info: File `"opgave 2 2015".out' has not changed.
+(rerunfilecheck)             Checksum: BACE46907CD5AD8D0CD3226E0B7090C3;94.
  ) 
 Here is how much of TeX's memory you used:
- 6451 strings out of 479917
- 98546 string characters out of 5886664
- 404334 words of memory out of 5000000
- 22882 multiletter control sequences out of 15000+600000
- 545782 words of font info for 70 fonts, out of 8000000 for 9000
+ 6419 strings out of 479917
+ 98238 string characters out of 5886664
+ 402242 words of memory out of 5000000
+ 22872 multiletter control sequences out of 15000+600000
+ 544484 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,8n,85p,462b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tex
-live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/
-texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texl
-ive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on texdefault.pdf (4 pages, 103790 bytes).
+ 78i,8n,85p,269b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
+live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msbm10.pfb>
+Output written on "opgave 2 2015.pdf" (2 pages, 62787 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 65 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 

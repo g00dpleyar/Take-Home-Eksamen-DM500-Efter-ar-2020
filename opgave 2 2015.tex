@@ -1,0 +1,80 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+
+\title{\LaTeX{}}
+\author{Andreas Twisttmann Askholm}
+\date{\today}
+
+%comments are preceded by a % sign
+%bold text \textbf{}
+%italics \textit{}
+%underlined \underline{}
+%fremhæv \emph{}
+%billede \includegraphics{}
+%matematik \(...\), $...$ eller \begin{math}...\end{math}
+
+\begin{document}
+
+\maketitle
+
+\section{Opgave 2}
+\renewcommand{\labelenumi}{\alph{enumi}}
+\renewcommand{\labelenumii}{\arabic{enumii}}
+\begin{enumerate}
+	\item) Hvilke af følgende udsagn er sande ?
+\begin{enumerate}
+	\item. \( \forall x \in  \mathbb{N}: \exists y \in \mathbb{N}: x < y\)\\
+
+	Udsagnet er sandt,\\
+	der altid kan findes et y der er større end x.\\
+	
+	\item. \(\forall x \in \mathbb{N}:\exists! y \in \mathbb{N}: x < y\)\\
+	
+	Udsagnet er ikke sandt,\\
+	da der kan findes mere end et y der er større end x.\\
+	
+	\item. \( \exists y \in \mathbb{N}: \forall x \in \mathbb{N}: x < y\)\\
+	
+	Udsagnet er ikke sandt,\\
+	da der ikke findes et y som er større end alle x.\\
+	
+\end{enumerate}
+	\item) Angiv negeringen af udsagn 1. fra spørgsmål a).\\
+	Negerings-operatoren($\neg$) må ikke indgå i dit udsagn.\\
+	
+	\(\exists x \in \mathbb{N}: \forall y \in \mathbb{N}: x \geq y\)\\
+	ved negering af et udtryk, ændres operatorerne til de modsat betydende.
+	
+\end{enumerate}
+
+\section{opgave 3 matricer}
+\begin{enumerate}
+	\item) \(\begin{bmatrix}
+			1 & 0 & 0 & 0\\
+			1 & 1 & 0 & 0\\
+			1 & 0 & 1 & 0\\
+			1 & 0 & 0 & 1
+			\end{bmatrix}\)
+			
+	\item) \(\begin{bmatrix}
+			0 & 1 & 0 & 0\\
+			0 & 0 & 1 & 1\\
+			0 & 0 & 0 & 0\\
+			0 & 1 & 0 & 0
+			\end{bmatrix}\)
+			
+	\item) \(\begin{bmatrix}
+			1 & 0 & 1 & 0\\
+			0 & 1 & 0 & 1\\
+			1 & 0 & 1 & 0\\
+			0 & 1 & 0 & 1
+			\end{bmatrix}\)
+\end{enumerate}
+
+
+\end{document}
